@@ -4,13 +4,20 @@
     margin: 0;
     padding: 0;
 }
+
+/* -------------------------------Important------------------------------- */
+
 :root {
     --bg-color: #121212;
     --text-color: #f0f2f5;
-    --container-bg: #1e1e1e;
-    --link-color: #61dafb;
+    --container-bg: #242424;
+    --link-color: #00b7ff;
     --border-color: #444;
+    --button-color: #ffffff;
 }
+
+/* -------------------------------Important------------------------------- */
+
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: var(--bg-color);
@@ -18,14 +25,18 @@ body {
     line-height: 1.8;
     padding: 20px;
 }
+
+/* -------------------------------Main container------------------------------- */
 .container {
     max-width: 900px;
-    margin: 40px auto;
+    margin: 20px auto;
     background: var(--container-bg);
-    padding: 30px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 50px;
+    border-radius: 35px;
+    box-shadow: 0 7px 60px rgba(0, 0, 0, 0.6);
 }
+/* -------------------------------Main container------------------------------- */
+
 h1, h2, h3 {
     color: var(--text-color);
     margin-bottom: 15px;
@@ -37,11 +48,11 @@ h1, h2, h3 {
     gap: 20px;
 }
 .contact img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    border-radius: 35%;
     object-fit: cover;
-    border: 2px solid var(--link-color);
+    border: 3px solid var(--link-color);
 }
 .contact p, .contact a {
     font-size: 1.1em;
@@ -49,6 +60,7 @@ h1, h2, h3 {
     color: var(--text-color);
 }
 .contact a {
+    text-shadow: 0.2px 0.2px 4px rgba(0, 0, 0, 0.2);
     color: var(--link-color);
     text-decoration: none;
 }
@@ -74,16 +86,21 @@ ul li:last-child {
 .skills-column {
     width: 48%;
 }
+
+/* -------------------------------Theme preferences------------------------------- */
+
 .theme-toggle {
-    margin: 20px 0;
+    margin: 0px 0;
     text-align: center;
 }
 .theme-toggle button {
     padding: 10px 20px;
     font-size: 16px;
-    background: var(--link-color);
+    background: var(--button-color);
     color: var(--bg-color);
     border: none;
-    border-radius: 5px;
+    border-radius: 25px;
     cursor: pointer;
 }
+
+/* -------------------------------Theme preferences------------------------------- */
