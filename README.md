@@ -1,2 +1,2 @@
-# LuciferSH.github.io
+# Shtrikker Artem
 My resume
